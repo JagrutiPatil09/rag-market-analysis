@@ -1,1 +1,2 @@
 backend/.env # Add .env to .gitignore
+backend/venv/
