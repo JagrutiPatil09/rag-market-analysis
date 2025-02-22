@@ -1,12 +1,18 @@
 # rag-market-analysis
-\nfollow the steps to run this in your system:
+
+follow the steps to run this in your system:
+
 clone the git
+
 cd backend
+
 pip install -r requirements.txt
 uvicorn main:app --reload
 
 cd frontend
+
 npm install
+
 npm start
 
 http://localhost:3000/
