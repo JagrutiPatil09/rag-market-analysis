@@ -1,0 +1,10 @@
+[services]
+  [services.backend]
+  name = "backend"
+  build = "cd backend && pip install -r requirements.txt"
+  start = "cd backend && uvicorn main:app --reload"
+
+  [services.frontend]
+  name = "frontend"
+  build = "cd frontend && npm install"
+  start = "cd frontend && npm start"
