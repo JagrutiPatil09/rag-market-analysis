@@ -1,5 +1,5 @@
 # rag-market-analysis
-follow the steps to run this in your system:
+\nfollow the steps to run this in your system:
 clone the git
 cd backend
 pip install -r requirements.txt
